@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/avatar"
+    tools:context=".FeedbackFragment">
+
+
+    <ImageSwitcher
+        android:id="@+id/imgSw"
+        android:layout_width="262dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="156dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.57"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </ImageSwitcher>
+
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+
+        android:background="#00FF0000"
+        android:contentDescription="@string/back"
+        android:src="@drawable/back_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/saveAvatar"
+        android:layout_width="240dp"
+        android:layout_height="78dp"
+        android:contentDescription="@string/save"
+        android:text="Save"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSw"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <!--    <Button-->
+<!--        android:id="@+id/btnNext"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="58dp"-->
+<!--        android:layout_alignBottom="@+id/btnPrevious"-->
+<!--        android:layout_marginTop="60dp"-->
+<!--        android:layout_toRightOf="@+id/btnPrevious"-->
+<!--        android:text="Next"-->
+<!--        android:textSize="18sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.498"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imgSw"-->
+<!--        tools:ignore="UnknownId" />-->
+
+    <TextView
+        android:id="@+id/setAvatar"
+        android:layout_width="130dp"
+        android:layout_height="38dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/changeAvatarHeading"
+        android:textAlignment="center"
+        android:textSize="65px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <ImageButton
+        android:id="@+id/leftButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="#00FF0000"
+        android:scaleType="center"
+        android:src="@drawable/leftarrow"
+        app:layout_constraintBottom_toTopOf="@+id/saveAvatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSw"
+        app:layout_constraintVertical_bias="0.392" />
+
+    <ImageButton
+        android:id="@+id/rightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="7dp"
+        android:background="#00FF0000"
+        android:src="@drawable/rightarrow"
+        app:layout_constraintBottom_toTopOf="@+id/saveAvatar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.807"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSw"
+        app:layout_constraintVertical_bias="0.1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

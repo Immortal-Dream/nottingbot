@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">nottingbot</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="chat_fragment_label">Chat Fragment</string>
+    <string name="settings">Settings</string>
+    <string name="getStarted">Get Started</string>
+    <string name="previous">Previous</string>
+    <string name="settingsContentDesc">Settings icon</string>
+    <string name="what_s_on_your_mind">Enter your query</string>
+    <string name="changeAvatar">Change Avatar</string>
+    <string name="shareQR">Share QR Code</string>
+    <string name="feedbackCentre">Feedback Centre</string>
+    <string name="basicSettings">Basic Settings</string>
+    <string name="backToSettings">Back to Settings</string>
+    <string name="saveQRCode">Save QR Code</string>
+    <string name="back">Back</string>
+    <string name="feedbackHeading">Feedback Centre</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="providedBySystem">Provided By System</string>
+    <string name="changeAvatarHeading">Set Avatar</string>
+    <string name="shareQRCode">Share the QR code with your friends\nto invite them join and chat with\nNottingBot!</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="send">Send</string>
+    <string name="type_something_here">  Type something here...</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="alert">Alert</string>
+    <string name="sureToClearMessage">Do you want to delete all history message?</string>
+    <string name="clearAllMessage">You have cleared all history message.</string>
+    <string name="give_your_feedback">Give your feedback...</string>
+    <string name="webChatFragmentNote">Web chat page of watson assistant</string>
+    <string name="arFragmentNote">AR page of watson assistant</string>
+    <string name="web_chat">Web Chat</string>
+    <string name="share_qr_code">Share QR Code</string>
+    <string name="feedback_centre">Feedback Centre</string>
+    <string name="successful_feedback">Successfully sent!\n</string>
+    <string name="another_feedback">You can send another feedback.</string>
+    <string name="listening_voice">Listening… Click the microphone button to stop</string>
+    <string name="stop_listening">Stopped Listening… Click to restart </string>
+    <string name="after">After</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ar_button">AR_Button</string>
+    <string name="take_photo_button">Take Photo Button</string>
+</resources>

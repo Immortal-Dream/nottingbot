@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.nottingbot.WelcomeFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/welcome_page">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/from_right"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <action
+            android:id="@+id/action_Welcome_to_ChatFragment"
+            app:destination="@id/WebChat"
+            app:enterAnim="@anim/from_left" />
+        <action
+            android:id="@+id/action_Welcome_to_AR"
+            app:destination="@id/ARPage"
+            app:enterAnim="@anim/from_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.nottingbot.SettingFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/settings_menu">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment"
+            app:enterAnim="@anim/from_left" />
+        <action
+            android:id="@+id/action_SecondFragment_to_ChangeAvatarFragment"
+            app:destination="@id/ChangeAvatarFragment"
+            app:enterAnim="@anim/from_right" />
+        <action
+            android:id="@+id/action_SecondFragment_to_FeedbackFragment"
+            app:destination="@id/FeedbackCentre"
+            app:enterAnim="@anim/from_right" />
+        <action
+            android:id="@+id/action_SecondFragment_to_QRCodeFragment"
+            app:destination="@id/SaveQRCode"
+            app:enterAnim="@anim/from_right" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/ChangeAvatarFragment"
+        android:name="com.example.nottingbot.ChangeAvatarFragment"
+        android:label="@string/changeAvatarHeading"
+        tools:layout="@layout/change_avatar">
+        <action
+            android:id="@+id/ChangeAvatarFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/from_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/FeedbackCentre"
+        android:name="com.example.nottingbot.FeedbackFragment"
+        android:label="@string/feedbackHeading"
+        tools:layout="@layout/feedback">
+        <action
+            android:id="@+id/FeedbackCentre_to_SecondFragment"
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/from_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/SaveQRCode"
+        android:name="com.example.nottingbot.QRCodeFragment"
+        android:label="@string/shareQRCode"
+        tools:layout="@layout/qr_code">
+        <action
+            android:id="@+id/SaveQRCode_to_SecondFragment"
+            app:destination="@id/SecondFragment"
+            app:enterAnim="@anim/from_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/WebChat"
+        android:name="com.example.nottingbot.WebChatFragment"
+        android:label="@string/webChatFragmentNote"
+        tools:layout="@layout/web_chat"
+        >
+        <action
+            android:id="@+id/WebChat_to_WelcomePage"
+            app:destination="@+id/FirstFragment"
+            app:enterAnim="@anim/from_right"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/ARPage"
+        android:name="com.example.nottingbot.ARFragment"
+        android:label="@string/arFragmentNote"
+        tools:layout="@layout/ar_page"
+        >
+        <action
+            android:id="@+id/AR_to_WelcomePage"
+            app:destination="@+id/FirstFragment"
+            app:enterAnim="@anim/from_right"
+            />
+    </fragment>
+
+</navigation>

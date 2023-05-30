@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Watson Assistant service credentials-->
+    <string name="assistant_id">6bdc483f-2ec3-4325-93d6-a4db3b6e75bc</string>
+
+    <string name="assistant_apikey">8alLqDm4KjSgBdFxK-s2jxblVNpKVAzjeeQGzntpODhD</string>
+
+    <string name="assistant_url">https://api.eu-gb.assistant.watson.cloud.ibm.com/instances/6bdc483f-2ec3-4325-93d6-a4db3b6e75bc</string>
+
+
+    <!--Watson Speech To Text(STT) service credentials-->
+    <string name="STT_apikey">Gc2kO1H8e_jnIx28ORTylxnNMEXtG1wYdu1-O-w3GHad</string>
+
+
+    <string name="STT_url">https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/1eef6fe3-e17b-4fb6-870a-be0162883c5b</string>
+
+    <!--Watson Text To Speech(TTS) service credentials-->
+    <string name="TTS_apikey">0IZTyH1aGKHG-h7Ojgl-TxdIrpVQ50Sr8o_LOITKamOF</string>
+
+    <string name="TTS_url">https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/4428f0af-0833-47da-95da-59af7d3045ee</string>
+
+    <string name="Cloudant_url">https://724d9131-429b-4922-8ea1-21685685f0da-bluemix.cloudantnosqldb.appdomain.cloud</string>
+
+    <string name="Cloudant_api">WxKXDtpZ2gJ7DpCKOhqexymXilfc9EPhxbIYq_FETvUg</string>
+
+</resources>
