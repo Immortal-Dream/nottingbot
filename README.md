@@ -12,38 +12,6 @@
 > could be targeted to serve the students of a particular course - or It could be
 > usable by every university student at your university.
 
-**Group Members :**  
+**Technologies used :** IBM Cloudant, IBM Watson Assistant, Web application development
 
->Junhan LIU: Team Leader [**scyjl15@nottingham.ac.uk**]
-
->Zainab Shakeel: Team Admin [**psyzs3@nottingham.ac.uk**]
-
->Zeyu WEI : Git Admin [**scyzw11@nottingham.ac.uk**]
-
->Huai-Sheng Cheng : [**efyhc5@nottingham.ac.uk**]
-
->Mengtong XIE : [**scymx1@nottingham.ac.uk**]
-
->Diya Vithaldas : [**efydv1@nottingham.ac.uk**]
-
->James Thompson : [**psyjt10@nottingham.ac.uk**]
-
->Inderpal Thaliwal : [**psyit1@nottingham.ac.uk**]
-
-**Mentor Name:** John McNamara
-
-**Technologies used :** IBM Cloud, Watson Assistant, Web application development
-
-**Team contact email:** [scyjl15@nottingham.ac.uk]
-
-**Blog Link** [ To be created ]
-
-**Video Link** [Pitch Video](https://drive.google.com/drive/folders/1vlLMvkGnK0A0L2jxt0iW5mdL5q73_DwV)
-
-**Trello Project Board Link:** [Trello Board](https://trello.com/invite/team4watsonavatarfornewstudent/ATTI1601aacbebc909e7bdcd61ffab4d0b6c86795FFA)
-
-**Google Drive link:**  [Software Engineering Group Project - Google Drive](https://drive.google.com/drive/folders/1CE8cvV1imyRdrKxz36twK_JLyyLzKLXQ)
-
-**Article write up for IBM (at end of project):**  [To be created]
-
-**Mozilla Hubs Room Link :** [To be created]
+**Video Link** [Demo Video]([https://drive.google.com/drive/folders/1vlLMvkGnK0A0L2jxt0iW5mdL5q73_DwV](https://drive.google.com/file/d/15P5OYkS4otp7axvzA7KJJhTUy44wtI99/view?usp=sharing))
