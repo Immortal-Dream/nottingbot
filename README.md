@@ -35,7 +35,7 @@
 
 **Team contact email:** [scyjl15@nottingham.ac.uk]
 
-**Video Link** [Pitch Video](https://drive.google.com/drive/folders/1vlLMvkGnK0A0L2jxt0iW5mdL5q73_DwV)
+**Video Link** [Promotion Video](https://drive.google.com/file/d/15P5OYkS4otp7axvzA7KJJhTUy44wtI99/view)
 
 **Trello Project Board Link:** [Trello Board](https://trello.com/invite/team4watsonavatarfornewstudent/ATTI1601aacbebc909e7bdcd61ffab4d0b6c86795FFA)
 
