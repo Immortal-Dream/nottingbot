@@ -8,6 +8,8 @@
 
 > Create a web app Watson chatbot that the students (users) can access via aQR code from their mobile device. The QR code could be printed out and left atstrategic areas around the university for new students to see.The chat bot would provide Information that a university student wished theyknew when they first arrived at your university. The content of the chatbotcould be targeted to serve the students of a particular course - or It could beusable by every university student at your university.
 
+**Video Link** [Promotion Video](https://drive.google.com/file/d/15P5OYkS4otp7axvzA7KJJhTUy44wtI99/view)
+
 **Group Members :**
 
 > Junhan LIU: Team Leader [**scyjl15@nottingham.ac.uk**]
@@ -34,8 +36,6 @@
 **Technologies used :** IBM Cloud, Watson Assistant, Web application development
 
 **Team contact email:** [scyjl15@nottingham.ac.uk]
-
-**Video Link** [Promotion Video](https://drive.google.com/file/d/15P5OYkS4otp7axvzA7KJJhTUy44wtI99/view)
 
 **Trello Project Board Link:** [Trello Board](https://trello.com/invite/team4watsonavatarfornewstudent/ATTI1601aacbebc909e7bdcd61ffab4d0b6c86795FFA)
 
